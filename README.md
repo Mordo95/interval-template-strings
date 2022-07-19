@@ -1,7 +1,7 @@
 
 # Interval Template Strings
 A simple package that allows you to use nicely formatted interval strings when working with time.
-This package was made with inspiration from the [sql-template-strings](https://www.npmjs.com/package/sql-template-strings).
+This package was made with inspiration from the [sql-template-strings](https://www.npmjs.com/package/sql-template-strings) package.
 
 Working with intervals in nodejs can be kind of sloppy from time to time. Constantly having to go over how much milliseconds a specific time actually is, constantly having to recalculate back and forth on it, and in worst case cenario, make your timings hard to read. This package brings a fix to that problem with only a single import and no additional dependencies.
 
