@@ -8,7 +8,7 @@ Working with intervals in nodejs can be kind of sloppy from time to time. Consta
 ## How?
 Thanks to javascript's beautiful processing of template strings, it's as easy as;
 ```js
-import { T } from 'interval-template-strings';
+import { T, _T } from 'interval-template-strings';
 
 // long 
 T`3 hours 20 seconds`
