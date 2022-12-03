@@ -1,6 +1,6 @@
 {
   "name": "interval-template-strings",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Allows you to use interval template strings for timings",
   "main": "index.js",
   "files": [
@@ -14,7 +14,7 @@
     "node": ">=12.0.0"
   },
   "scripts": {
-    "test": "mocha --recursive \"test/**/*.js\" --exit"
+    "test": "mocha -r ts-node/register 'tests/**/*.ts'"
   },
   "repository": {
     "type": "git",
@@ -33,7 +33,12 @@
   },
   "homepage": "https://github.com/Mordo95/interval-template-strings#readme",
   "devDependencies": {
-    "mocha": "^10.0.0"
-  },
-  "type": "module"
+    "@types/mocha": "^10.0.1",
+    "@types/node": "^18.11.10",
+    "mocha": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.1",
+    "tslib": "^2.4.1",
+    "typescript": "^4.9.3"
+  }
 }
